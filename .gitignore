@@ -40,3 +40,4 @@ build/
 *.jar
 *.war
 *.db
+src/main/resources/application.properties
