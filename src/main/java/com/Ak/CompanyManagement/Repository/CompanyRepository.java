@@ -1,6 +1,6 @@
-package com.Ak.employeemanagement.Repository;
+package com.Ak.CompanyManagement.Repository;
 
-import com.Ak.employeemanagement.Entity.Company;
+import com.Ak.CompanyManagement.Entity.Company;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

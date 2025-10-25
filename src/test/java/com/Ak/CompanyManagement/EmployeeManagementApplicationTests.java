@@ -1,4 +1,4 @@
-package com.Ak.employeemanagement;
+package com.Ak.CompanyManagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

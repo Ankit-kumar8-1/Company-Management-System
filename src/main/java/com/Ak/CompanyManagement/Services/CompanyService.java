@@ -1,11 +1,10 @@
-package com.Ak.employeemanagement.Services;
+package com.Ak.CompanyManagement.Services;
 
-import com.Ak.employeemanagement.Entity.Company;
-import com.Ak.employeemanagement.Exceptions.InValidUpdateFieldException;
-import com.Ak.employeemanagement.Repository.CompanyRepository;
+import com.Ak.CompanyManagement.Entity.Company;
+import com.Ak.CompanyManagement.Exceptions.InValidUpdateFieldException;
+import com.Ak.CompanyManagement.Repository.CompanyRepository;
 import org.springframework.stereotype.Service;
 
-import java.io.InvalidClassException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

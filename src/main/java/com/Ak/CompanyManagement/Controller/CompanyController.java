@@ -1,4 +1,4 @@
-package com.Ak.employeemanagement.Controller;
+package com.Ak.CompanyManagement.Controller;
 
 
 public class CompanyController {
