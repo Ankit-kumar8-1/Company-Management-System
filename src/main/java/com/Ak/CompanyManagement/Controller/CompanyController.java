@@ -23,7 +23,7 @@ public class CompanyController {
         return companyService.getCompanyDetail();
     }
 
-    @PutMapping("/update")
+    @PutMapping
     public  Company updatescompanydetail(@RequestBody Map<String,String> updates){
         return companyService.updateCompanyDetail(updates);
     }
