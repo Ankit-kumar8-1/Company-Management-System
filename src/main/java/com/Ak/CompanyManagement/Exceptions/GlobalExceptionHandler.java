@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.context.request.ServletWebRequest;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
@@ -16,6 +17,6 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(HttpRequestMethodNotSupportedException.class)
     public ResponseEntity<String> handleMethodNotSupported(HttpRequestMethodNotSupportedException ex) {
-        return new ResponseEntity<>("You can only perform GET or PUT method.", HttpStatus.METHOD_NOT_ALLOWED);
+        return new ResponseEntity<>("you can only perform GET or Put Method.",HttpStatus.METHOD_NOT_ALLOWED);
     }
 }
