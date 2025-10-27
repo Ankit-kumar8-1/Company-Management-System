@@ -16,7 +16,7 @@ public class Department {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id ;
 
-    private String deptName ;
+    private String department_Name ;
     private String manager ;
     private  String description;
 

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 
+
 @RestController
 @RequestMapping("/company")
 public class CompanyController {
@@ -27,6 +28,7 @@ public class CompanyController {
     public  Company updatescompanydetail(@RequestBody Map<String,String> updates){
         return companyService.updateCompanyDetail(updates);
     }
+
 
 
 }
